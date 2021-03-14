@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #fff;
+  background: url("../images/everest.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;}
+
+h1 {
+  background: #1e1b1e url("../images/mn21.jpg") no-repeat;
+    border-radius: 5px 60px 5px;
+  width: 214px;
+  height: 186px;
+  float: left;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;}
+
+h2 {
+  margin: 1.75em 0 0 0;
+  color: #adffda; 
+  font-weight: normal;}
+
+h2 + p {
+  margin: 0.25em 0 0 0;}
+p + p {
+  margin: 0;}
+p + h2 {
+  margin: 10px 0 0 0;}
+
+/* message under the logo */
+
+#mission {
+  float: left;
+  clear: left;
+  background-color: #1a927e;
+  border-radius: 5px 60px 5px;
+  color: #111111;
+  width: 160px;
+  height: 76px;
+  top: 50%;
+  
+  padding: 18px 30px;
+  text-align: center;}
+
+/* circkle */
+
+#about {
+
+ 
+  height: 125px;
+  width: 125px;
+  background-color: rgb(14, 13, 13);
+  border-radius: 5px 60px 5px;
+  display: table-caption;
+  color: #fff;
+    padding: 0 15px;
+  text-align: center;
+  min-height: 100%;
+    width: 200px;
+  
+  position: absolute;
+  top: 0;
+  right: 15%;
+}
+
+
+
+/* details in the circkle */
+
+
+
+#mountTrek {
+  text-transform: uppercase;
+  text-align: center; 
+  font-size: 120%;
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff; 
+  padding: 10px 0;}
+
+#trek1 {
+  margin-top: 1em; 
+  border-top: 1px solid #1a927e; 
+  padding-top: 1em;} 
+  
+
+#trek2 {
+  color: #fff;
+  border-bottom: 1px solid #1a927e  ; 
+  padding-bottom: 1em;}
+
+#places {
+  font-size: 440%;
+  color: #1a927e;
+  display: inline-block;
+  margin: 0;}
+
+
+#offerEnds {
+  text-transform: uppercase;
+  color: #ffb87a;
+  font-size: 75%;}
+
+.true, .false {
+  padding: 0 50px 0 50px;
+  line-height: 28px;
+  text-align: left;
+  background-image: url("../images/check-cross.png");
+  background-position: 120px 0;
+  background-repeat: no-repeat;}
+  
+
+.false {
+  background-position: 120px -28px;}
+
+/* footer */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  border-radius: 5px 60px 5px;
+  background-color: #1a927e;}
+
+#footer p {
+  padding: 15px;
+  margin: 0;}
+
+.data {
+  padding: 15px;}
